@@ -23,6 +23,8 @@ $german = array(
 	'logbrowser:object' => 'Objekt-Typ',
 	'logbrowser:object:guid' => 'Objekt-GUID',
 	'logbrowser:action' => 'Aktion',
+
+        'logbrowser:no_result' => 'Keine Einträge gefunden.',
 );
 
 add_translation("de", $german);

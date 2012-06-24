@@ -243,7 +243,7 @@ $german = array(
 	'pageownerunavailable' => 'Warnung: Der Seiten-Eigentümer %d ist nicht erreichbar!',
         'viewfailure' => 'In der View %s ist ein interner Fehler aufgetreten.',
         'changebookmark' => 'Bitte ändere Dein Lesezeichen für diese Seite.',
-        'noaccess' => 'Dieser Seiteninhalt wurde entweder gelöscht oder ist fehlerhaft oder Du hast keine ausreichende Berechtigungen, um darauf zuzugreifen.',
+        'noaccess' => 'Der Seiteninhalt, den Du aufgerufen hast, wurde entweder gelöscht oder Du hast keine ausreichende Berechtigung, um darauf zuzugreifen.',
         'error:missing_data' => 'Bei Deiner Anfrage fehlten einige notwendige Daten.',
 
         'error:default' => 'Hoppla...irgendetwas ist schiefgegangen.',
@@ -372,7 +372,7 @@ $german = array(
         'avatar:preview' => 'Vorschau',
         'avatar:upload' => 'Profilbild hochladen',
         'avatar:current' => 'Derzeitiges Profilbild',
-        'avatar:revert' => 'Zurücksetzen Deines Profilbildes auf das Standardbild',
+        'avatar:remove' => 'Löschen Deines Profilbildes und Wiederherstellen des Standardbildes',
         'avatar:crop:title' => 'Tool zum Zuschneiden des Profilbildes',
         'avatar:upload:instructions' => "Das Profilbild ist das Bild, das auf Deiner Profilseite und bei all Deinen Beiträgen auf der Community-Seite angezeigt wird. Du kannst es so oft ändern wie Du willst. (Mögliche Dateiformate: GIF, JPG oder PNG)",
         'avatar:create:instructions' => 'Um Dein Profilbild nach Deinen Wünschen zuzuschneiden (optional), klicke es an und markiere einen quadratischen Ausschnitt während Du die Maustaste gedrückt hältst. Du kannst den Ausschnitt anschließend auch verschieben und in der Größe anpassen. Eine Vorschau Deines Profilbildes wird in der Box rechts daneben dargestellt. Wenn Du zufrieden mit dem Zuschneiden bist, klicke auf \'Profilbild erstellen\', um das Profilbild zu übernehmen. Das zugeschnittene Bild wird dann auf der ganzen Community-Seite als Dein Profilbild verwendet.',
@@ -381,8 +381,8 @@ $german = array(
         'avatar:resize:fail' => 'Die Größenanpassung des Profilbildes ist fehlgeschlagen.',
         'avatar:crop:success' => 'Das Zuschneiden des Profilbildes war erfolgreich.',
         'avatar:crop:fail' => 'Das Zuschneiden des Profilbildes ist fehlgeschlagen.',
-        'avatar:revert:success' => 'Das Profilbild wurde zurückgesetzt.',
-        'avatar:revert:fail' => 'Das Zurücksetzen des Profilbildes ist fehlgeschlagen.',
+        'avatar:remove:success' => 'Das Profilbild wurde gelöscht.',
+        'avatar:remove:fail' => 'Das Löschen des Profilbildes ist fehlgeschlagen.',
 
         'profile:edit' => 'Profil bearbeiten',
         'profile:aboutme' => "Über mich",
@@ -417,6 +417,8 @@ $german = array(
         'profile:explainchangefields' => "Hier kannst Du die existierenden Profilfelder durch eigene Felder ersetzen. Zuerst mußt Du einen Namen für das neue Feld eingeben, z.B. 'Lieblingsteam'. Dann mußt Du den Typ des Feldes auswählen (z.B. Text, URL, Tags). Mit einem Klick auf 'Hinzufügen' wird das Feld dann in das Profil aufgenommen. Um die Reihenfolge der Felder zu ändern, kannst Du ein Feld am Greifer neben dem Namen in seine gewünschte Position ziehen. Um den Namen eines Feldes zu ändern, klicke auf den Text, um ihn editierbar zu machen. \n\n Du kannst jederzeit das ursprüngliche Standard-Profil wiederherstellen. Aber alle Informationen, die in die benutzerdefinierten Felder auf den Profilseiten eingegeben wurden, gehen dann verloren.",
         'profile:editdefault:success' => 'Das Profilfeld wurde hinzugefügt.',
         'profile:editdefault:fail' => 'Die Änderung der Profilfelder konnte nicht gespeichert werden.',
+        'profile:field_too_long' => 'Die Profilinformationen können nicht gespeichert werden, da der Inhalt des "%s"-Feldes zu lang ist.',
+        'profile:noaccess' => "Du hast keine ausreichende Berechtigung, um dieses Profil zu editieren.",
 
 
 /**
@@ -456,7 +458,7 @@ $german = array(
  * Notifications
  */
 	'notifications:usersettings' => "Benachrichtigungs-Einstellungen",
-	'notifications:methods' => "Wähle bitte die Benachrichtigungsmethoden aus, die Du zulassen willst.",
+	'notifications:methods' => "Wähle bitte aus, welche Art von Benachrichtigungen Du erhalten willst.",
 	'notification:method:email' => 'Email',
 
 	'notifications:usersettings:save:ok' => "Deine Benachrichtigungs-Einstellungen wurden gespeichert.",
@@ -509,6 +511,7 @@ $german = array(
 	'registration:notemail' => 'Die von Dir angegebene Email-Adresse scheint keine gültige Email-Adresse zu sein.',
 	'registration:userexists' => 'Dieser Benutzername ist schon belegt.',
 	'registration:usernametooshort' => 'Dein Benutzername muss mindestens %u Zeichen lang sein.',
+        'registration:usernametoolong' => 'Dein Benutzername ist zu lang. Es sind maximal %u Zeichen zulässig.',
 	'registration:passwordtooshort' => 'Das Passwort muss mindestens %u Zeichen lang sein.',
 	'registration:dupeemail' => 'Diese Email-Adresse ist schon bei einer früheren Registrierung verwendet worden.',
 	'registration:invalidchars' => 'Entschuldigung, Dein Benutzername enthält das unzulässige Zeichen %s. Folgende Zeichen sind nicht zulässig: %s',
@@ -747,6 +750,9 @@ $german = array(
         'admin:server:label:mem_avail' => 'Verfügbarer Hauptspeicher',
         'admin:server:label:mem_used' => 'Verwendeter Hauptspeicher',
         'admin:server:error_log' => "Fehler-Log des Webservers",
+        'admin:server:label:post_max_size' => 'Php-Einstellung von post_max_size',
+        'admin:server:label:upload_max_filesize' => 'Php-Einstellung von upload_max_filesize',
+        'admin:server:warning:post_max_too_small' => '(Bemerkung: Der Wert von post_max_size muss größer als dieser Wert sein, damit Uploads dieser Größe möglich sind)',
 
 	'admin:user:label:search' => "Suche Benutzeraccount:",
 	'admin:user:label:searchbutton' => "Suche",
@@ -867,6 +873,7 @@ $german = array(
         'new' => 'Neu',
         'add' => 'Hinzufügen',
         'create' => 'Hinzufügen',
+        'remove' => 'Entfernen',
         'revert' => 'Zurücksetzen',
 
 	'site' => 'Webseite',
@@ -941,6 +948,7 @@ $german = array(
  */
 
 	'deleteconfirm' => "Bist Du sicher, dass Du diesen Eintrag löschen willst?",
+        'deleteconfirm:plural' => "Bist Du sicher, dass Du diese Einträge löschen willst?",
 	'fileexists' => "Es wurde bereits eine Datei hochgeladen. Um sie zu ersetzen, unten auswählen:",
 
 /**
@@ -1180,7 +1188,8 @@ Du kannst auf diese Email NICHT antworten.",
 	'actiongatekeeper:missingfields' => 'Der Form fehlt der __token und/oder __ts Eintrag',
 	'actiongatekeeper:tokeninvalid' => "Es ist ein Fehler aufgetreten (Token mismatch - ungültiges Token). Ursache dafür ist wahrscheinlich, dass das Authentifizierungs-Token für die Seite, die Du betrachtet hast, abgelaufen ist. Bitte lade die Seite neu und versuche es noch einmal.",
 	'actiongatekeeper:timeerror' => 'Das Authentifizierungs-Token für die die Seite, die Du betrachtet hast, ist abgelaufen. Bitte lade die Seite neu und versuche es noch einmal.',
-	'actiongatekeeper:pluginprevents' => 'Durch eine installierte Erweiterung wurde die Übertragung dieser Form verhindert.',
+	'actiongatekeeper:pluginprevents' => 'Durch eine der auf dieser Seite installierten Erweiterungen wurde die Verarbeitung der im Formular gemachten Eingaben blockiert.',
+        'actiongatekeeper:uploadexceeded' => 'Die Dateigröße der hochgeladenen Datei(en) übersteigt das Limit, das vom Administrator dieser Seite eingestellt worden ist.',
 
 /**
  * Word blacklists

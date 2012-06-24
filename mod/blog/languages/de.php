@@ -41,7 +41,6 @@ $german = array(
 	'blog:message:saved' => 'Dein Blog-Eintrag wurde gespeichert.',
 	'blog:error:cannot_save' => 'Dein Blog-Eintrag konnte nicht gespeichert werden.',
 	'blog:error:cannot_write_to_container' => 'Keine ausreichenden Zugriffsrechte zum Speichern des Blog-Eintrags im Gruppenblog vorhanden.',
-	'blog:error:post_not_found' => 'Dieser Blog-Eintrag wurde entweder gelöscht oder der Link zum Eintrag ist ungültig oder Du hast nicht die notwendigen Zugriffsrechte, um darauf zuzugreifen.',
 	'blog:messages:warning:draft' => 'Die Entwurfsversion dieses Eintrags wurde nocht nicht gespeichert!',
 	'blog:edit_revision_notice' => '(Alte Revision)',
 	'blog:message:deleted_post' => 'Dein Blog-Eintrag wurde gelöscht.',
