@@ -1,10 +1,18 @@
-German Language Pack for Elgg 1.8.6 - Release 7
+German Language Pack for Elgg 1.8.7 - Release 8
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
 
 
 Changelog:
+
+r8 (Elgg 1.8.7):
+
+* Errors in main language file fixed,
+* Error in diagnostics plugin language file fixed,
+* Upgrading main language file for Elgg 1.8.7,
+* Upgrading language files of bundled plugins for Elgg 1.8.7: groups, likes, notifications any tinymce.
+
 
 r7 (Elgg 1.8.6):
 
@@ -58,7 +66,7 @@ r0 (Elgg 1.8.0b2):
 
 ----------
 
-This Language Pack contains the German language files for Elgg 1.8.6 including the bundled plugins.
+This Language Pack contains the German language files for Elgg 1.8.7 including the bundled plugins.
 
 To install / update the language pack simply copy the files into the corresponding folders:
 
@@ -74,7 +82,7 @@ The language used on your Elgg installation can either be set for the whole site
 
 ----------
 
-Dieses Sprachpaket enthält die deutschen Sprachdateien für Elgg 1.8.6 inklusive der mitgelieferten Plugins.
+Dieses Sprachpaket enthält die deutschen Sprachdateien für Elgg 1.8.7 inklusive der mitgelieferten Plugins.
 
 Für die Installation / zum Updaten müssen die Dateien einfach in die entsprechenden Verzeichnisse kopiert werden:
 

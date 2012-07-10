@@ -8,7 +8,7 @@ $german = array(
 	'notifications:subscriptions:personal:title' => 'Persönliche Benachrichtigungseinstellungen',
 
 	'notifications:subscriptions:friends:title' => 'Freundeslisten',
-	'notifications:subscriptions:friends:description' => 'Um gleiche Benachrichtigungseinstellungen für alle Freunde, die in einer Deiner Freundeslisten enthalten sind, festzulegen, kannst Du Deine verfügbaren Freundeslisten hier an- und abwählen. Dies wird aber auch die freundesspezifischen Benachrichtigungseinstellungen, die weiter unten verfügbar sind, beeinflussen. Die erste Liste wurde automatisch erstellt und enthält alle Deine Freunde.',
+        'notifications:subscriptions:friends:description' => 'Im folgenden sind Deine verfügbaren Freundeslisten aufgeführt. Wenn Du eine Liste auswählst, kannst Du für alle in dieser Liste enthaltenen Freunde die Benachrichtigung bei neuen Beiträgen von ihnen aktivieren.',
 	'notifications:subscriptions:collections:edit' => 'Um Deine Freundeslisten zu bearbeiten, hier klicken.',
 
 	'notifications:subscriptions:changesettings' => 'Benachrichtigungen',

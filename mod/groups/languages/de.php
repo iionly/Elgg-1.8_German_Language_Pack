@@ -13,6 +13,7 @@
 
 	'groups' => "Gruppen",
 	'groups:owned' => "Von mir gegründete Gruppen",
+        'groups:owned:user' => 'Gruppen gegründet von %s',
 	'groups:yours' => "Meine Gruppen",
 	'groups:user' => "Gruppen von %s",
 	'groups:all' => "Alle Gruppen",
@@ -65,10 +66,19 @@
         'groups:search_in_group' => "In dieser Gruppe suchen",
         'groups:acl' => "Gruppe: %s",
 
+        'discussion:notification:topic:subject' => 'Neuer Gruppen-Diskussionsbeitrag',
         'groups:notification' =>
 '%s hat einen neuen Eintrag im Diskussionsforum von %s geschrieben:
 
 %s
+%s
+
+Schau Dir den neuen Diskussionsbeitrag an und schreibe einen Kommentar:
+%s
+',
+        'discussion:notification:reply:body' =>
+'%s hat auf den Diskusstionsbeitrag %s in der Gruppe %s geantwortet:
+
 %s
 
 Schau Dir den neuen Diskussionsbeitrag an und schreibe einen Kommentar:

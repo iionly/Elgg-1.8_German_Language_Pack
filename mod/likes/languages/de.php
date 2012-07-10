@@ -17,6 +17,7 @@ $german = array(
 	'likes:userlikedthis' => '%s gefällt',
 	'likes:userslikedthis' => '%s gefällt',
 	'likes:river:annotate' => 'gefällt',
+        'likes:delete:confirm' => 'Bist Du sicher, dass Du Dein "Gefällt mir" zurücknehmen willst?',
 
 	'river:likes' => 'gefällt %s %s',
 

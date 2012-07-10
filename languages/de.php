@@ -59,6 +59,7 @@ $german = array(
 	'DatabaseException:DBSetupIssues' => "Einige Probleme sind aufgetreten: ",
 	'DatabaseException:ScriptNotFound' => "Elgg konnte das angeforderte Datenbankskript %s nicht finden.",
         'DatabaseException:InvalidQuery' => "Unzulässige Datenbank-Query.",
+        'DatabaseException:InvalidDBLink' => "Die Verbindung zur Datenbank ist unterbrochen.",
 
 	'IOException:FailedToLoadGUID' => "Das Laden der neuen Form %s von GUID ist gescheitert:%d",
 	'InvalidParameterException:NonElggObject' => "Übergabe eines unzulässigen ElggObjects an einen ElggObject-Konstruktor!",
@@ -78,10 +79,10 @@ $german = array(
         'ElggPlugin:MissingID' => 'Fehlende Plugin-ID (GUID: %s)',
         'ElggPlugin:NoPluginPackagePackage' => 'Das zugehörige Plugin-Paket für die Plugin-ID %s (GUID: %s) fehlt.',
 
-        'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Fehlende Datei %s im Paket.',
-        'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Ungültiger Dependency-Typ "%s".',
-        'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Ungültiger Provides-Typ "%s"',
-        'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Ungültige %s-Abhängigkeit "%s" im Plugin %s. Plugins können nicht mit etwas in Konflikt stehen oder etwas voraussetzen, das sie selbst bereitstellen!',
+        'ElggPluginPackage:InvalidPlugin:MissingFile' => 'Die benötigte Datei "%s" kann nicht gefunden werden.',
+        'ElggPluginPackage:InvalidPlugin:InvalidDependency' => 'Die Manifest-Datei enthält den ungültigen Requires-Typ "%s".',
+        'ElggPluginPackage:InvalidPlugin:InvalidProvides' => 'Die Manifest-Datei enthält den ungültigen Provides-Typ "%s".',
+        'ElggPluginPackage:InvalidPlugin:CircularDep' => 'Nicht auflösbare %s-Abhängigkeit "%s" im Plugin %s. Plugins können nicht mit etwas in Konflikt stehen oder etwas voraussetzen, das sie selbst bereitstellen!',
 
         'ElggPlugin:Exception:CannotIncludeFile' => 'Einbindung von %s für Plugin %s (GUID: %s) an %s gescheitert.',
         'ElggPlugin:Exception:CannotRegisterViews' => 'Öffnen des Views-Verzeichnis für Plugin %s (GUID: %s) an %s gescheitert.',
@@ -233,17 +234,12 @@ $german = array(
         'LoginException:AccountLocked' => 'Dein Benutzeraccount wurde aufgrund zu vieler fehlgeschlagener Anmeldeversuche gesperrt.',
         'LoginException:ChangePasswordFailure' => 'Die Überprüfung des derzeitigen Passworts ist fehlgeschlagen.',
 
-	'memcache:notinstalled' => 'Das PHP-Memcache-Modul ist nicht installiert. Due mußt php5-memcache installieren.',
-	'memcache:noservers' => 'Es wurden keine Memcache-Server definiert. Weise der Variablen $CONFIG->memcache_servers bitte etwas zu.',
-	'memcache:versiontoolow' => 'Memcache setzt zum Betrieb mindestens Version %s voraus. Du benutzt Version %s.',
-	'memcache:noaddserver' => 'Mehr-Server-Unterstützung ist deaktiviert. Du mußt möglicherweise Deine PECL-Memcache-Library upgraden.',
-
 	'deprecatedfunction' => 'Warnung: Dieser Code verwendet die veraltete Funktion \'%s\' und ist mit dieser Version von Elgg nicht kompatibel.',
 
 	'pageownerunavailable' => 'Warnung: Der Seiten-Eigentümer %d ist nicht erreichbar!',
         'viewfailure' => 'In der View %s ist ein interner Fehler aufgetreten.',
         'changebookmark' => 'Bitte ändere Dein Lesezeichen für diese Seite.',
-        'noaccess' => 'Der Seiteninhalt, den Du aufgerufen hast, wurde entweder gelöscht oder Du hast keine ausreichende Berechtigung, um darauf zuzugreifen.',
+        'noaccess' => 'Um den Seiteninhalt, den Du aufgerufen hast, betrachten zu können mußt Du entweder angemeldet sein oder der Inhalt wurde gelöscht oder Du hast keine ausreichende Berechtigung, um darauf zuzugreifen.',
         'error:missing_data' => 'Bei Deiner Anfrage fehlten einige notwendige Daten.',
 
         'error:default' => 'Hoppla...irgendetwas ist schiefgegangen.',
@@ -532,8 +528,8 @@ $german = array(
         'user:current_password:label' => 'Dein derzeitiges Passwort',
 	'user:password:label' => "Dein neues Passwort",
 	'user:password2:label' => "Neues Passwort noch einmal eingeben",
-	'user:password:success' => "Dein Passwort wurde geändert",
-	'user:password:fail' => "Dein Passwort wurde geändert.",
+	'user:password:success' => "Dein Passwort wurde geändert.",
+	'user:password:fail' => "Dein Passwort konnte leider nicht geändert werden.",
 	'user:password:fail:notsame' => "Die zwei eingegebenen Passwörter stimmen nicht überein!",
 	'user:password:fail:tooshort' => "Das angegebene Passwort ist zu kurz!",
         'user:password:fail:incorrect_current_password' => 'Deine Eingabe stimmt nicht mit Deinem derzeitigen Passwort überein.',
@@ -548,7 +544,7 @@ $german = array(
 	'user:username:notfound' => 'Benutzername %s unbekannt.',
 
 	'user:password:lost' => 'Neues Passwort',
-	'user:password:resetreq:success' => 'Die Anforderung eines neuen Passworts war erfolgreich. Die Email mit dem neuen Passwort wurde gesendet',
+	'user:password:resetreq:success' => 'Die Anforderung eines neuen Passworts war erfolgreich. Die Email mit dem neuen Passwort wurde gesendet.',
 	'user:password:resetreq:fail' => 'Die Anforderung eines neuen Passworts ist fehlgeschlagen.',
 
 	'user:password:text' => 'Um ein neues Passwort anzufordern, gebe im folgenden Textfeld Deinen Benutzernamen oder Deine Email-Adresse ein. Wir werden Dir dann eine Email zur Bestätigung der Anfrage zusenden. Folge dem Link in dieser Email, um Deine Passwort-Anfrage zu bestätigen. Dann wird Dir ein neues Passwort zugesandt.',
@@ -703,7 +699,8 @@ $german = array(
 
         'admin:plugins:warning:elgg_version_unknown' => 'Dieses Plugin verwendet eine veraltete Manifest-Datei und es gibt keine Informationen bezüglich den kompatiblen Elgg-Versionen. Es wird wahrscheinlich nicht funktionieren!',
         'admin:plugins:warning:unmet_dependencies' => 'Dieses Plugin hat unerfüllte Abhängigkeiten und kann deshalb nicht aktiviert werden. Prüfe die Abhängigkeiten für weitere Informationen.',
-        'admin:plugins:warning:invalid' => '%s ist kein zulässiges Elgg-Plugin. Bitte schau in der <a href="http://docs.elgg.org/Invalid_Plugin">Elgg-Dokumentation</a> nach, um weitere Hinweise zur Problemlösung zu erhalten.',
+        'admin:plugins:warning:invalid' => 'Dieses Plugin ist nicht standardkonform: %s.',
+        'admin:plugins:warning:invalid:check_docs' => 'Bitte schau in der <a href="http://docs.elgg.org/Invalid_Plugin">Elgg-Dokumentation</a> nach, um weitere Hinweise zur Problemlösung zu erhalten.',
         'admin:plugins:cannot_activate' => 'Aktivierung nicht möglich.',
 
         'admin:plugins:set_priority:yes' => "%s neu angeordnet.",
@@ -884,6 +881,7 @@ $german = array(
 	'down' => 'Tiefer',
 	'top' => 'Anfang',
 	'bottom' => 'Ende',
+        'back' => 'Zurück',
 
 	'invite' => "Einladen",
 
@@ -1087,7 +1085,7 @@ Nachdem Du Dich angemeldet hast, solltest Du Dein Passwort ändern.
 	'email:settings' => "Email",
 	'email:address:label' => "Deine Email-Adresse",
 
-	'email:save:success' => "Neue Email-Adresse gespeichert. Eine Bestätigungs-Email wurde versandt.",
+	'email:save:success' => "Die neue Email-Adresse wurde gespeichert.",
 	'email:save:fail' => "Deine neue Email-Adresse konnte nicht gespeichert werden.",
 
 	'friend:newfriend:subject' => "Du bist nun mit %s befreundet!",
