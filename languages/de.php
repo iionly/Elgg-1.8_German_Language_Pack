@@ -443,6 +443,8 @@ $german = array(
         'river:ingroup' => 'in der Gruppe %s',
         'river:none' => 'Keine Aktivität',
         'river:update' => 'Aktualisierung für %s',
+        'river:delete:success' => 'Der Eintrag wurde gelöscht.',
+        'river:delete:fail' => 'Der Eintrag konnte nicht gelöscht werden.',
 
         'river:widget:title' => "Aktivitäten",
         'river:widget:description' => "Neueste Aktivitäten anzeigen",
