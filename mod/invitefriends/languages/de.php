@@ -28,7 +28,7 @@ Hallo,
 Ich möchte Dich einladen, meiner Community-Seite %s beizutreten.',
 
 	'invitefriends:email' => '
-Durch wurdest eingeladen, der Community-Seite %s beizutreten. Die Einladung wurde von %s versendet. Die folgende Nachricht wurde der Einladung beigefügt:
+Du bist eingeladen, der Community-Seite %s beizutreten. Die Einladung wurde von %s versendet. Die folgende Nachricht wurde der Einladung beigefügt:
 
 %s
 

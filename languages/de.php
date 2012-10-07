@@ -959,7 +959,7 @@ $german = array(
 	'useradd:body' => '
 %s,
 
-Auf der Community-Seite %s wurde ein Benutzeraccount für Dich erstellt %s. Um Dich anzumelden, gehe zu:
+Auf der Community-Seite %s wurde ein Benutzeraccount für Dich erstellt. Um Dich anzumelden, gehe zu:
 
 %s
 

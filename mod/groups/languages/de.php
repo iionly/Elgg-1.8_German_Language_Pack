@@ -165,7 +165,7 @@ Schau Dir den neuen Diskussionsbeitrag an und schreibe einen Kommentar:
 	'groups:latestdiscussion' => 'Neueste Diskussionsbeiträge',
 	'groups:newest' => 'Neueste',
 	'groups:popular' => 'Beliebt',
-	'groupspost:success' => 'Deine Antwort wurde gespeichert',
+	'groupspost:success' => 'Deine Antwort wurde gespeichert.',
 	'groups:alldiscussion' => 'Neueste Diskussionsbeiträge',
 	'groups:edittopic' => 'Diskussionsbeitrag bearbeiten',
 	'groups:topicmessage' => 'Textinhalt des Diskussionsbeitrags',

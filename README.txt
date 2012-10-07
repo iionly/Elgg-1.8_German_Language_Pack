@@ -1,10 +1,18 @@
-German Language Pack for Elgg 1.8.8 - Release 9
+German Language Pack for Elgg 1.8.8 - Release 10
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
 
 
 Changelog:
+
+r10 (Elgg 1.8.8):
+
+* Removed odd %s-placeholder in a language string in main language file (thanks to Pasley70 for reporting),
+* Fixed one string in groups plugin language file,
+* Corrected a misleading tranlation in the reported content plugin language file,
+* Fixed a spelling error in the invite friends plugin language file.
+
 
 r9 (Elgg 1.8.8):
 
