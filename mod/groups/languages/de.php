@@ -42,6 +42,7 @@
 	'groups:noaccess' => 'Zugang zur Gruppe verweigert',
         'groups:permissions:error' => 'Du hast keine Berechtigung für diese Aktion.',
         'groups:ingroup' => 'in der Gruppe',
+        'groups:cantcreate' => 'Du kannst keine Gruppe erstellen. Dies können nur Administratoren.',
 	'groups:cantedit' => 'Du kannst die Gruppen-Einstellungen nicht bearbeiten',
 	'groups:saved' => 'Gruppe angelegt',
 	'groups:featured' => 'Besondere Gruppen',
@@ -234,9 +235,9 @@ oder folge dem nächsten Link, um die ausstehenden Anfragen zum Gruppenbeitritt 
 
 %s",
 
-	/*
-		Forum river items
-	*/
+	/**
+	 * Forum river items
+	 */
 
         'river:create:group:default' => '%s hat die Gruppe %s gegründet.',
         'river:join:group:default' => '%s ist der Gruppe %s beigetreten.',
@@ -259,6 +260,7 @@ oder folge dem nächsten Link, um die ausstehenden Anfragen zum Gruppenbeitritt 
 	'groups:forumtopic:edited' => 'Diskussionsbeitrag wurde aktualisiert.',
 
 	'groups:allowhiddengroups' => 'Möchtest Du private (versteckte) Gruppen zulassen?',
+        'groups:whocancreate' => 'Wer soll neue Gruppen erstellen dürfen?',
 
 	/**
 	 * Action messages
