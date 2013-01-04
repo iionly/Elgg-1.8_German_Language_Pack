@@ -1,4 +1,4 @@
-German Language Pack for Elgg 1.8.11 - Release 12
+German Language Pack for Elgg 1.8.12 - Release 13
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
@@ -23,6 +23,13 @@ Die Festlegung der verwendeten Sprache kann entweder global für die gesamte Elg
 ----------
 
 Changelog:
+
+r13 (Elgg 1.8.12):
+
+* update of install language file for Elgg 1.8.12,
+* update of main language file for Elgg 1.8.12,
+* Upgrading language files of bundled plugins for Elgg 1.8.12: developers, groups, pages.
+
 
 r12 (Elgg 1.8.11):
 
