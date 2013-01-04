@@ -1061,6 +1061,10 @@ Nachdem Du Dich angemeldet hast, solltest Du Dein Passwort ändern.
 	'upgrading' => 'Aktualisieren...',
 	'upgrade:db' => 'Deine Datenbank wurde aktualisiert.',
 	'upgrade:core' => 'Deine Elgg-Installation wurde aktualisiert.',
+        'upgrade:unlock' => 'Upgrade entsperren',
+        'upgrade:unlock:confirm' => "Die Datenbank ist durch einen anderen Upgrade-Prozess gesperrt. Gleichzeitig ausgeführte Upgrade-Prozesse sind gefährlich. Du solltest nur dann weitermachen, wenn Du sicher bist, dass momentan wirklich kein anderer Upgrade-Prozess ausgeführt wird. Entsperren?",
+        'upgrade:locked' => "Upgrade ist nicht möglich. Ein anderer Upgrade-Prozess wird momentan ausgeführt. Um die Upgrade-Sperre zu entfernen, öffne den Admin-Bereich Deiner Seite.",
+        'upgrade:unlock:success' => "Die Upgrade-Sperre wurde entfernt.",
         'upgrade:unable_to_upgrade' => 'Die Aktualisierung ist fehlgeschlagen.',
         'upgrade:unable_to_upgrade_info' =>
                 'Diese Installation kann nicht aktualisiert werden, da in den Views-Verzeichnissen der

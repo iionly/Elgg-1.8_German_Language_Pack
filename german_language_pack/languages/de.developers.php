@@ -54,6 +54,7 @@ $german = array(
 	'theme_preview:modules' => 'Module',
 	'theme_preview:navigation' => 'Navigation',
 	'theme_preview:typography' => 'Typographie',
+        'theme_preview:miscellaneous' => 'Verschiedenes',
 
         // unit tests
         'developers:unit_tests:description' => 'Elgg enthält Modultests und Integrationstests, um mögliche Fehler in seinen Klassen und Funktionen zu finden.',

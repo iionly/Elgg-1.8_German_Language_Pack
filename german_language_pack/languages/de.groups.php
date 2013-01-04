@@ -21,7 +21,9 @@
 	'groups:edit' => "Bearbeite Gruppen-Einstellungen",
 	'groups:delete' => 'Lösche Gruppe',
 	'groups:membershiprequests' => 'Verwalte Beitritts-Anfragen',
+        'groups:membershiprequests:pending' => 'Verwalte Beitritts-Anfragen (%s)',
 	'groups:invitations' => 'Einladungen zum Gruppenbeitritt',
+        'groups:invitations:pending' => 'Einladungen zum Gruppenbeitritt (%s)',
 
 	'groups:icon' => 'Gruppen-Icon (leer lassen, um nicht zu ändern)',
 	'groups:name' => 'Gruppenname',
@@ -31,6 +33,12 @@
 	'groups:interests' => 'Tags',
 	'groups:website' => 'Webseite',
 	'groups:members' => 'Gruppen-Mitglieder',
+        'groups:my_status' => 'Mein Status',
+        'groups:my_status:group_owner' => 'Die Gruppe wurde von Dir gegründet.',
+        'groups:my_status:group_member' => 'Du bist Mitglied dieser Gruppe.',
+        'groups:subscribed' => 'Benachrichtigungen für diese Gruppe sind aktiviert.',
+        'groups:unsubscribed' => 'Benachrichtigungen für diese Gruppe sind deaktiviert.',
+
         'groups:members:title' => 'Mitglieder von %s',
         'groups:members:more' => "Alle Mitglieder auflisten",
 	'groups:membership' => "Beschränkung des Gruppenbeitritts",
