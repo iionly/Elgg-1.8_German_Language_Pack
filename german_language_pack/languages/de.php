@@ -410,7 +410,8 @@ $german = array(
         'profile:editdefault:delete:fail' => 'Das Entfernen des Standard-Feldes aus dem Profil ist fehlgeschlagen.',
         'profile:editdefault:delete:success' => 'Das Profilfeld wurde gelöscht!',
         'profile:defaultprofile:reset' => 'Die Standard-Profilfelder wurden wiederhergestellt.',
-        'profile:resetdefault' => 'Die Standard-Profilfelder wiederherstellen',
+        'profile:resetdefault' => 'Standard-Profilfelder wiederherstellen',
+        'profile:resetdefault:confirm' => 'Bist Du sicher, dass Du Deine benutzerdefinierten Profilfelder löschen willst?',
         'profile:explainchangefields' => "Hier kannst Du die existierenden Profilfelder durch eigene Felder ersetzen. Zuerst mußt Du einen Namen für das neue Feld eingeben, z.B. 'Lieblingsteam'. Dann mußt Du den Typ des Feldes auswählen (z.B. Text, URL, Tags). Mit einem Klick auf 'Hinzufügen' wird das Feld dann in das Profil aufgenommen. Um die Reihenfolge der Felder zu ändern, kannst Du ein Feld am Greifer neben dem Namen in seine gewünschte Position ziehen. Um den Namen eines Feldes zu ändern, klicke auf den Text, um ihn editierbar zu machen. \n\n Du kannst jederzeit das ursprüngliche Standard-Profil wiederherstellen. Aber alle Informationen, die in die benutzerdefinierten Felder auf den Profilseiten eingegeben wurden, gehen dann verloren.",
         'profile:editdefault:success' => 'Das Profilfeld wurde hinzugefügt.',
         'profile:editdefault:fail' => 'Die Änderung der Profilfelder konnte nicht gespeichert werden.',
@@ -669,6 +670,7 @@ $german = array(
 
 
         'admin:notices:could_not_delete' => 'Die Benachrichtigung kann nicht gelöscht werden.',
+        'item:object:admin_notice' => 'Admin-Benachrichtigung',
 
         'admin:options' => 'Admin-Optionen',
 
@@ -1149,7 +1151,7 @@ Andernfalls ignoriere bitte diese Email.
 
 	'comments:count' => "Kommentare von %s",
 
-	'riveraction:annotation:generic_comment' => '%s kommentierte %s',
+        'river:comment:object:default' => '%s kommentierte %s',
 
         'generic_comments:add' => "Kommentieren",
         'generic_comments:post' => "Kommentieren",
@@ -1163,6 +1165,7 @@ Andernfalls ignoriere bitte diese Email.
 	'generic_comment:failure' => "Beim Speichern Deines Kommentars ist ein Fehler aufgetreten. Bitte versuche es noch einmal.",
         'generic_comment:none' => 'Keine Kommentare.',
         'generic_comment:title' => 'Kommentar von %s',
+        'generic_comment:on' => '%s zu %s',
 
 	'generic_comment:email:subject' => 'Du hast einen neuen Kommentar erhalten!',
 	'generic_comment:email:body' => "Zu Deinem Eintrag \"%s\" wurde von %s ein neuer Kommentar geschrieben. Der Kommentar lautet:
