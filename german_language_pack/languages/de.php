@@ -1199,7 +1199,7 @@ Du kannst auf diese Email NICHT antworten.",
  * Action gatekeeper
  */
 	'actiongatekeeper:missingfields' => 'Der Form fehlt der __token und/oder __ts Eintrag',
-	'actiongatekeeper:tokeninvalid' => "Es ist ein Fehler aufgetreten (Token mismatch - ungültiges Token). Ursache dafür ist wahrscheinlich, dass das Authentifizierungs-Token für die Seite, die Du betrachtet hast, abgelaufen ist. Bitte lade die Seite neu und versuche es noch einmal.",
+	'actiongatekeeper:tokeninvalid' => "Die Gültigkeit des Authentifizierungs-Token für die gerade betrachtete Seite ist abgelaufen. Bitte lade die Seite neu.",
 	'actiongatekeeper:timeerror' => 'Das Authentifizierungs-Token für die die Seite, die Du betrachtet hast, ist abgelaufen. Bitte lade die Seite neu und versuche es noch einmal.',
 	'actiongatekeeper:pluginprevents' => 'Durch eine der auf dieser Seite installierten Erweiterungen wurde die Verarbeitung der im Formular gemachten Eingaben blockiert.',
         'actiongatekeeper:uploadexceeded' => 'Die Dateigröße der hochgeladenen Datei(en) übersteigt das Limit, das vom Administrator dieser Seite eingestellt worden ist.',
@@ -1220,7 +1220,7 @@ Du kannst auf diese Email NICHT antworten.",
  * Javascript
  */
 
-        'js:security:token_refresh_failed' => 'Verbindung mit %s fehlgeschlagen. Eventuell gibt es Probleme beim Speichern neuer Inhalte.',
+        'js:security:token_refresh_failed' => 'Verbindung mit %s fehlgeschlagen. Eventuell wird das Speichern neuer Inhalte fehlschlagen. Bitte lade die Seite neu.',
         'js:security:token_refreshed' => 'Verbindung mit %s wiederhergestellt!',
 
 /**
