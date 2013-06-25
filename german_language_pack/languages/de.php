@@ -178,7 +178,7 @@ $german = array(
 	'ConfigurationException:NoSiteID' => "Es wurde keine Site-ID angegeben.",
 	'SecurityException:APIAccessDenied' => "Entschuldigung, der API-Zugriff wurde durch den Administrator deaktiviert.",
 	'SecurityException:NoAuthMethods' => "Eine konnte keine Authentifizierungs-Methode gefunden werden, um diesen API-Zugriff zu authentifizieren.",
-	'SecurityException:ForwardFailedToRedirect' => 'Die Weiterleitung kann nicht durchgeführt werden, da der Seiten-Header bereits gesendet wurde. Die Ausführung wird sicherheitshalber gestoppt. Bitte gehe zu http://docs.elgg.org/ für weitere Informationen.',
+	'SecurityException:ForwardFailedToRedirect' => 'Die Weiterleitung ist fehlgeschlagen, da der Seiten-Header bereits gesendet wurde. Die Ausführung wird sicherheitshalber gestoppt. Die Ausgabe wurde in der Datei %s in Zeile %d begonnen. Bitte gehe zu http://docs.elgg.org/ für weitere Informationen.',
 	'SecurityException:UnexpectedOutputInGatekeeper' => 'Unerwartete Rückgabe bei einem Gatekeeper-Aufruf. Die Ausführung wurde zur Sicherheit gestoppt. Bitte gehe zu http://docs.elgg.org/, um detailliertere Informationen zu diesem Problem zu erhalten.',
         'InvalidParameterException:APIMethodOrFunctionNotSet' => "Die Methode oder Funktion wurde im Aufruf in expose_method() nicht gesetzt.",
 	'InvalidParameterException:APIParametersArrayStructure' => "Die Parameter-Feldstruktur im Aufruf von Expose-Methode '%s' ist falsch.",
@@ -364,6 +364,7 @@ $german = array(
 	'friendspicker:chararray' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
         'avatar' => 'Profilbild',
+        'avatar:noaccess' => "Du hast keine Berechtigung, das Profilbild dieses Benutzers zu bearbeiten.",
         'avatar:create' => 'Profilbild erstellen',
         'avatar:edit' => 'Profilbild bearbeiten',
         'avatar:preview' => 'Vorschau',
@@ -1203,6 +1204,7 @@ Du kannst auf diese Email NICHT antworten.",
 	'actiongatekeeper:timeerror' => 'Das Authentifizierungs-Token für die die Seite, die Du betrachtet hast, ist abgelaufen. Bitte lade die Seite neu und versuche es noch einmal.',
 	'actiongatekeeper:pluginprevents' => 'Durch eine der auf dieser Seite installierten Erweiterungen wurde die Verarbeitung der im Formular gemachten Eingaben blockiert.',
         'actiongatekeeper:uploadexceeded' => 'Die Dateigröße der hochgeladenen Datei(en) übersteigt das Limit, das vom Administrator dieser Seite eingestellt worden ist.',
+        'actiongatekeeper:crosssitelogin' => "Entschuldigung, die Anmeldung zu dieser Webseite von einer anderen Webadresse ist nicht erlaubt. Bitte versuche es noch einmal von der richtigen Webadresse aus.",
 
 /**
  * Word blacklists

@@ -25,7 +25,9 @@ $german = array(
 
 	'twitter_api:revoke:success' => 'Twitter-Zugriff wurde widerrufen.',
 
-	'twitter_api:login' => 'Erlaube existierenden Benutzern, die ihren Twitter-Account verbunden haben, sich mit ihren Twitter-Accountdaten auf Deiner Elgg-Community-Seite anzumelden?',
+        'twitter_api:post_to_twitter' => "Nachrichten von Benutzern im Heißen Draht an Twitter senden?",
+
+	'twitter_api:login' => 'Anmeldung mit Twitter-Accountdaten auf Deiner Elgg-Community-Seite erlauben?',
 	'twitter_api:new_users' => 'Erlaube neuen Benutzern, sich mit ihren Twitter-Accountdaten anzumelden, selbst wenn die Account-Registrierung auf Deiner Elgg-Community-Seite deaktiviert ist?',
 	'twitter_api:login:success' => 'Du bist nun angemeldet.',
 	'twitter_api:login:error' => 'Die Anmeldung mit Deinen Twitter-Accountdaten ist fehlgeschlagen.',

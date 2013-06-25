@@ -12,17 +12,18 @@ $german = array(
 	'logrotate:monthly' => 'Einmal pro Monat',
 	'logrotate:yearly' => 'Einmal pro Jahr',
 
-	'logrotate:logrotated' => "Die alten Einträge in der Logdatei wurden archiviert.\n",
-	'logrotate:lognotrotated' => "Beim Archivieren der alten Einträge in der Logdatei ist ein Fehler aufgetreten.\n",
+	'logrotate:logrotated' => "Die alten Einträge im Log wurden archiviert.\n",
+	'logrotate:lognotrotated' => "Beim Archivieren der alten Einträge im Log ist ein Fehler aufgetreten.\n",
 
 	'logrotate:delete' => 'Löschen von archivierten Logs älter als',
 
 	'logrotate:week' => 'eine Woche',
 	'logrotate:month' => 'einen Monat',
 	'logrotate:year' => 'ein Jahr',
+        'logrotate:never' => 'nie',
 
 	'logrotate:logdeleted' => "Das Log wurde gelöscht.\n",
-	'logrotate:lognotdeleted' => "Beim Löschen des Logs ist ein Fehler aufgetreten.\n",
+	'logrotate:lognotdeleted' => "Es wurden keine Logs gelöscht.\n",
 );
 
 add_translation("de", $german);

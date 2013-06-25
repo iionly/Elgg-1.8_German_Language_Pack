@@ -1,4 +1,4 @@
-German Language Pack for Elgg 1.8.14 - Release 15
+German Language Pack for Elgg 1.8.16 - Release 16.1
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
@@ -23,6 +23,19 @@ Die Festlegung der verwendeten Sprache kann entweder global für die gesamte Elg
 ----------
 
 Changelog:
+
+r16.1 (Elgg 1.8.16):
+
+* Update of main language file for Elgg 1.8.16,
+* Upgrading language file of bundled logrotate plugin for Elgg 1.8.16.
+
+
+r16 (Elgg 1.8.15):
+
+* Update of main language file for Elgg 1.8.15,
+* Dropped language file for Twitter plugin as this plugin is no longer bundled in Elgg core,
+* Upgrading language files of bundled plugins for Elgg 1.8.15: developers, logrotate, pages, twitter_api.
+
 
 r15 (Elgg 1.8.14):
 

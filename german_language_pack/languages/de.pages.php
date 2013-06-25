@@ -25,6 +25,8 @@ $german = array(
 	'pages:history' => "Bearbeitungsverlauf",
 	'pages:view' => "Coop-Seite anzeigen",
 	'pages:revision' => "Revision",
+        'pages:current_revision' => "Aktuelle Revision",
+        'pages:revert' => "Diese Revision wiederherstellen",
 
 	'pages:navigation' => "Navigation",
         'pages:new' => "Eine neue Coop-Seite",
@@ -75,6 +77,9 @@ Schau Dir die neue Coop-Seite an und schreibe einen Kommentar:
 	'pages:error:no_title' => 'Du mußt einen Titel für diese Coop-Seite eingeben.',
 	'pages:delete:success' => 'Die Coop-Seite wurde gelöscht.',
 	'pages:delete:failure' => 'Die Coop-Seite konnte nicht gelöscht werden.',
+        'pages:revision:delete:success' => 'Die Revision der Coop-Seite wurde gelöscht.',
+        'pages:revision:delete:failure' => 'Die Revision der Coop-Seite konnte nicht gelöscht werden.',
+        'pages:revision:not_found' => 'Diese Revision konnte nicht gefunden werden.',
 
 	/**
 	 * Page
