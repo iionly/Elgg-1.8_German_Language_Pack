@@ -603,23 +603,21 @@ $german = array(
         'admin:settings' => 'Einstellungen',
         'admin:settings:basic' => 'Grundeinstellungen',
         'admin:settings:advanced' => 'Erweiterte Einstellungen',
-        'admin:settings:advanced/site_secret' => 'Geheimschlüssel',
 	'admin:site:description' => "Hier kannst Du einige globale Einstellungen für Deine Community-Seite vornehmen.",
-	'admin:settings:advanced:site_secret' => 'Geheimschlüssel',
 	'admin:site:opt:linktext' => "Community-Seite konfigurieren...",
 	'admin:site:access:warning' => "Eine Änderung des Zugangslevels betrifft nur die Seiteninhalte, die nach der Änderung erstellt werden.",
 	
 	'admin:site:secret:intro' => 'Elgg verwendet einen seitenspezifischen Geheimschlüssel, um darauf basierend Sicherheits-Token zu generieren, die für verschiedenen Authentifizierungszwecke verwendet werden.',
         'admin:site:secret_regenerated' => "Der Geheimschlüssel Deiner Community-Seite wurde neu erzeugt.",
         'admin:site:secret:regenerate' => "Geheimschlüssel neu erzeugen",
-        'admin:site:secret:regenerate:help' => "Anmerkung: dies kann einigen Benutzern Deiner Seite leider zwangsläufig einige Unannehmlichkeiten bereiten, da als Folge davon die Authentifizierungs-Token beispielsweise in den Cookies für die persistente Anmeldung, in den Validierungs-Emails und den Einladungscodes, die noch mit dem alten Geheimschlüssel erzeugt wurden, nicht mehr gültig sind",
+        'admin:site:secret:regenerate:help' => "Anmerkung: die Neuerstellung des Geheimschlüssels kann einigen Benutzern Deiner Seite leider zwangsläufig einige Unannehmlichkeiten bereiten, da als Folge davon die Authentifizierungs-Token beispielsweise in den Cookies für die persistente Anmeldung, in den Validierungs-Emails und den Einladungscodes, die noch mit dem alten Geheimschlüssel erzeugt wurden, nicht mehr gültig sind",
         'site_secret:current_strength' => 'Verschlüsselungsstärke',
         'site_secret:strength:weak' => "Schwach",
         'site_secret:strength_msg:weak' => "Wir empfehlen nachdrücklich, dass Du den Geheimschlüssel Deiner Community-Seite neu erzeugst.",
         'site_secret:strength:moderate' => "Moderat",
         'site_secret:strength_msg:moderate' => "Wir empfehlen, den Geheimschlüssel Deiner Community-Seite neu zu erzeugen, um die höchstmögliche Sicherheit für Deine Community-Seite zu gewährleisten.",
         'site_secret:strength:strong' => "Stark",
-        'site_secret:strength_msg:strong' => "&#x2713; die Verschlüsselungsstärke des Geheimschlüssels Deiner Community-Seite ist ausreichend hoch.",
+        'site_secret:strength_msg:strong' => "Die Verschlüsselungsstärke des Geheimschlüssels Deiner Community-Seite ist ausreichend hoch. Es ist nicht notwendig, den Schlüssel neu zu erzeugen.",
 
         'admin:dashboard' => 'Dashboard',
         'admin:widget:online_users' => 'Angemeldete Benutzer',
@@ -1101,8 +1099,8 @@ Nachdem Du Dich angemeldet hast, solltest Du Dein Passwort ändern.
 
         'update:twitter_api:deactivated' => 'Die Twitter API (bisher Twitter Service genannt) wurde während der Seitenaktualisierung deaktiviert. Bitte aktiviere die API manuell, falls sie benötigt wird.',
         'update:oauth_api:deactivated' => 'OAuth API (bisher OAuth Lib genannt) wurde während der Seitenaktualisierung deaktiviert. Bitte aktiviere die API manuell, falls sie benötigt wird.',
-        'upgrade:site_secret_warning:moderate' => "Es ist emfehlenswert, den Geheimschlüssel Deiner Community-Seite neu erzeugen zu lassen, um die Sicherheit für Deine Seite zu verbessern. Siehe Konfigurieren &gt; Einstellungen &gt; Geheimschlüssel",
-        'upgrade:site_secret_warning:weak' => "Wir empfehlen nachdrücklich, den Geheimschlüssel Deiner Community-Seite neu erzeugen zu lassen, um die Sicherheit für Deine Seite zu verbessern. Siehe Konfigurieren &gt; Einstellungen &gt; Geheimschlüssel",
+        'upgrade:site_secret_warning:moderate' => "Es ist emfehlenswert, den Geheimschlüssel Deiner Community-Seite neu erzeugen zu lassen, um die Sicherheit für Deine Seite zu verbessern. Siehe Konfigurieren &gt; Einstellungen &gt; Erweiterte Einstellungen",
+        'upgrade:site_secret_warning:weak' => "Wir empfehlen nachdrücklich, den Geheimschlüssel Deiner Community-Seite neu erzeugen zu lassen, um die Sicherheit für Deine Seite zu verbessern. Siehe Konfigurieren &gt; Einstellungen &gt; Erweiterte Einstellungen",
 
         'deprecated:function' => '%s() wurde durch %s() als veraltet markiert.',
 

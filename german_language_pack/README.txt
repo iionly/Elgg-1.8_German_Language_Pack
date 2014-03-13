@@ -1,4 +1,4 @@
-German Language Pack for Elgg 1.8.17 - Release 17
+German Language Pack for Elgg 1.8.19 - Release 19
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
@@ -24,7 +24,12 @@ Die Festlegung der verwendeten Sprache kann entweder global für die gesamte Elg
 
 Changelog:
 
-r17 (Elgg 1.8.17):
+r19 (Elgg 1.8.19):
+
+* Update of main language file for Elgg 1.8.19,
+
+
+r17 (Elgg 1.8.17 + 1.8.18):
 
 * Update of main language file for Elgg 1.8.17,
 
