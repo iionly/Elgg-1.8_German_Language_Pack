@@ -1,4 +1,4 @@
-German Language Pack for Elgg 1.8.19 - Release 19
+German Language Pack for Elgg 1.8.20 - Release 20
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
@@ -23,6 +23,12 @@ Die Festlegung der verwendeten Sprache kann entweder global für die gesamte Elg
 ----------
 
 Changelog:
+
+r20 (Elgg 1.8.20):
+
+* Update of main language file for Elgg 1.8.20,
+* Upgrading language files of bundled plugins for Elgg 1.8.20: blog, the_wire.
+
 
 r19 (Elgg 1.8.19):
 

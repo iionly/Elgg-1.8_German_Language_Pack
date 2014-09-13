@@ -64,7 +64,7 @@ $german = array(
 %s
 %s
 
-View and comment on the new blog post:
+Schau Dir den neuen Blog-Eintrag an und schreibe einen Kommentar:
 %s
 ',
 

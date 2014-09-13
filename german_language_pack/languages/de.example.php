@@ -19,7 +19,7 @@
  */
 
 $mapping = array(
-        'string:here' => 'Auf der Seite angezeigter Sting hier eingeben.',
+        'string:here' => 'Auf der Seite anzuzeigender String hier eingeben.',
 );
 
 add_translation('de', $mapping);

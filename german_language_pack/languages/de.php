@@ -20,10 +20,10 @@ $german = array(
 
 	'login' => "Anmelden",
 	'loginok' => "Du bist nun angemeldet.",
-        'loginerror' => "Die Anmeldung ist fehlgeschlagen. Bitte prüfe, ob Deine Eingaben für die Anmeldung richtig sind und versuche es noch einmal.",
-        'login:empty' => "Benutzername/Email-Adresse und Passwort müssen eingegeben werden.",
-        'login:baduser' => "Dein Benutzeraccount ist nicht verfügbar.",
-        'auth:nopams' => "Interner Fehler. Keine Methode zur Benutzerauthentifizierung installiert.",
+	'loginerror' => "Die Anmeldung ist fehlgeschlagen. Bitte prüfe, ob Deine Eingaben für die Anmeldung richtig sind und versuche es noch einmal.",
+	'login:empty' => "Benutzername/Email-Adresse und Passwort müssen eingegeben werden.",
+	'login:baduser' => "Dein Benutzeraccount ist nicht verfügbar.",
+	'auth:nopams' => "Interner Fehler. Keine Methode zur Benutzerauthentifizierung installiert.",
 
 	'logout' => "Abmelden",
 	'logoutok' => "Du bist nun abgemeldet.",
@@ -38,22 +38,22 @@ $german = array(
  * Errors
  */
 	'exception:title' => "Schwerwiegender Fehler.",
-        'exception:contact_admin' => 'Es ist ein nicht behebbarer Fehler aufgetreten. Der Fehler wurde protokolliert. Bitte leite folgende Informationen an den Seitenadministrator weiter:',
+	'exception:contact_admin' => 'Es ist ein nicht behebbarer Fehler aufgetreten. Der Fehler wurde protokolliert. Wenn Du der Seitenadministrator bist, prüfe bitte die Konfiguration in settings.php. Andernfalls leite bitte leite folgende Informationen an den Seitenadministrator weiter:',
 
 	'InstallationException:CantCreateSite' => "Die Elgg-Seite mit Namen %s und URL %s konnte nicht erzeugt werden.",
 
 	'actionundefined' => "Die angeforderte Aktion (%s) ist im System nicht definiert.",
-        'actionnotfound' => "Die Datei für die Ausführung der Aktion %s wurde nicht gefunden.",
+	'actionnotfound' => "Die Datei für die Ausführung der Aktion %s wurde nicht gefunden.",
 	'actionloggedout' => "Entschuldigung, Du kannst diese Aktion nicht ausführen während Du nicht angemeldet bist.",
 	'actionunauthorized' => 'Du bist nicht authorisiert, diese Aktion auszuführen',
 
-        'InstallationException:SiteNotInstalled' => 'Die angeforderte Seite kann nicht geladen werden. Die Community-Seite '
-        . ' ist nicht konfiguriert oder die zugehörige Datenbank ist nicht verfügbar.',
-        'InstallationException:MissingLibrary' => '%s kann nicht geladen werden.',
-        'InstallationException:CannotLoadSettings' => 'Elgg kann die konfigurationsdatei settings.php nicht laden. Entweder existiert die Datei nicht oder der Zugriff ist aufgrund fehlender Zugriffsrechte blockiert.',
+	'InstallationException:SiteNotInstalled' => 'Die angeforderte Seite kann nicht geladen werden. Die Community-Seite '
+		. ' ist nicht konfiguriert oder die zugehörige Datenbank ist nicht verfügbar.',
+	'InstallationException:MissingLibrary' => '%s kann nicht geladen werden.',
+	'InstallationException:CannotLoadSettings' => 'Elgg kann die konfigurationsdatei settings.php nicht laden. Entweder existiert die Datei nicht oder der Zugriff ist aufgrund fehlender Zugriffsrechte blockiert.',
 
 	'SecurityException:Codeblock' => "Zugriff auf die Ausführung des privilegierten Codeabschnittes verweigert.",
-	'DatabaseException:WrongCredentials' => "Elgg konnte mit den gegebenen Verbindungsparametern keine Verbindung zur Datenbank herstellen. Bitte prüfe die Konfiguration in settings.pgp.",
+	'DatabaseException:WrongCredentials' => "Elgg konnte mit den gegebenen Verbindungsparametern keine Verbindung zur Datenbank herstellen. Bitte prüfe die Konfiguration in settings.php.",
 	'DatabaseException:NoConnect' => "Elgg konnte keine Verbindung mit der Datenbank '%s' herstellen. Bitte prüfe, ob die Datenbank erzeugt wurde und Du die Rechte hast, um auf sie zuzugreifen.",
 	'SecurityException:FunctionDenied' => "Zugriff auf die privilegierte Funktion '%s' verweigert.",
 	'DatabaseException:DBSetupIssues' => "Einige Probleme sind aufgetreten: ",
@@ -179,7 +179,7 @@ $german = array(
 	'APIException:ApiResultUnknown' => "Der Typ der API-Rückgabe ist unbekannt. Das sollte nicht passieren.",
 	'ConfigurationException:NoSiteID' => "Es wurde keine Site-ID angegeben.",
 	'SecurityException:APIAccessDenied' => "Entschuldigung, der API-Zugriff wurde durch den Administrator deaktiviert.",
-	'SecurityException:NoAuthMethods' => "Eine konnte keine Authentifizierungs-Methode gefunden werden, um diesen API-Zugriff zu authentifizieren.",
+	'SecurityException:NoAuthMethods' => "Es konnte keine Authentifizierungs-Methode gefunden werden, um diesen API-Zugriff zu authentifizieren.",
 	'SecurityException:ForwardFailedToRedirect' => 'Die Weiterleitung ist fehlgeschlagen, da der Seiten-Header bereits gesendet wurde. Die Ausführung wird sicherheitshalber gestoppt. Die Ausgabe wurde in der Datei %s in Zeile %d begonnen. Bitte gehe zu http://docs.elgg.org/ für weitere Informationen.',
 	'SecurityException:UnexpectedOutputInGatekeeper' => 'Unerwartete Rückgabe bei einem Gatekeeper-Aufruf. Die Ausführung wurde zur Sicherheit gestoppt. Bitte gehe zu http://docs.elgg.org/, um detailliertere Informationen zu diesem Problem zu erhalten.',
         'InvalidParameterException:APIMethodOrFunctionNotSet' => "Die Methode oder Funktion wurde im Aufruf in expose_method() nicht gesetzt.",
@@ -252,7 +252,7 @@ $german = array(
  * API
  */
 	'system.api.list' => "Liste alle im System verfügbaren API-Aufrufe auf.",
-	'auth.gettoken' => "Dieser API-Aufruf ermöglicht es einem Benutzer ein Authetifizierungs-Token zu beziehen, das für die Authentifizierung nachfolgender API-Aufrufe verwendet werden kann. Übergebe es als Parameter auth_token.",
+	'auth.gettoken' => "Dieser API-Aufruf ermöglicht es einem Benutzer ein Authentifizierungs-Token zu beziehen, das für die Authentifizierung nachfolgender API-Aufrufe verwendet werden kann. Übergebe es als Parameter auth_token.",
 
 /**
  * User details
@@ -438,9 +438,9 @@ $german = array(
  * River
  */
 	'river' => "River",
-	'river:friend:user:default' => "%s ist nun mit %s befreundet.",
-        'river:update:user:avatar' => '%s hat ein neues Profilbild hochgeladen.',
-        'river:update:user:profile' => '%s hat ihre/seine Profilseite aktualisiert.',
+	'river:friend:user:default' => "%s ist nun mit %s befreundet",
+        'river:update:user:avatar' => '%s hat ein neues Profilbild hochgeladen',
+        'river:update:user:profile' => '%s hat ihre/seine Profilseite aktualisiert',
 	'river:noaccess' => 'Du hast keine Berechtigung um diesen Eintrag anzuzeigen.',
 	'river:posted:generic' => '%s schrieb',
 	'riveritem:single:user' => 'ein Mitglied',
@@ -1054,7 +1054,7 @@ Nachdem Du Dich angemeldet hast, solltest Du Dein Passwort ändern.
 
          // Walled Garden support
         'installation:registration:description' => 'Standardmäßig ist die Registrierung neuer Benutzeraccounts erlaubt. Schalte dies ab, wenn Du nicht willst, dass neue Besucher Deiner Seite Accounts registrieren dürfen.',
-        'installation:registration:label' => 'Registrieren neuer Benutzeraccounts erlauben',
+        'installation:registration:label' => 'Registrierung neuer Benutzeraccounts erlauben',
         'installation:walled_garden:description' => 'Deine Community-Seite als privates Netzwerk betreiben. Nur angemeldete Benutzer werden auf die Inhalte Deiner Seite Zugriff haben mit der Ausnahme von Inhalten, deren Zugriffsberechtigung explizit auf \'öffentlich\' gesetzt ist.',
         'installation:walled_garden:label' => 'Zugriff auf angemeldete Benutzer beschränken',
 
@@ -1243,7 +1243,7 @@ Du kannst auf diese Email NICHT antworten.",
         'js:security:token_refreshed' => 'Verbindung mit %s wiederhergestellt!',
 
 /**
- * Languages according to ISO 639-1
+ *  Languages according to ISO 639-1 (with a couple of exceptions)
  */
 	"aa" => "Afar",
 	"ab" => "Abchasisch",
@@ -1262,6 +1262,7 @@ Du kannst auf diese Email NICHT antworten.",
 	"bo" => "Tibetisch",
 	"br" => "Bretonisch",
 	"ca" => "Katalanisch",
+	"cmn" => "Chinesisch (Mandarin)", // ISO 639-3
 	"co" => "Korsisch",
 	"cs" => "Tschechisch",
 	"cy" => "Walisisch",
@@ -1313,7 +1314,7 @@ Du kannst auf diese Email NICHT antworten.",
 	"ku" => "Kurdisch",
 	"ky" => "Kirgisisch",
 	"la" => "Latein",
-        "ln" => "Lingala",
+	"ln" => "Lingala",
 	"lo" => "Laotisch",
 	"lt" => "Litauisch",
 	"lv" => "Lettisch",
@@ -1338,6 +1339,7 @@ Du kannst auf diese Email NICHT antworten.",
 	"pl" => "Polnisch",
 	"ps" => "Paschtunisch",
 	"pt" => "Portugiesisch",
+	"pt_br" => "Portugiesisch (Brasilianisch)",
 	"qu" => "Quechua",
 	"rm" => "Rätoromanisch",
 	"rn" => "Kirundi",

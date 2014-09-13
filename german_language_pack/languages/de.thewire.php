@@ -53,7 +53,7 @@ $german = array(
 	 * Notifications
 	 */
 	'thewire:notify:subject' => "Neue Nachricht im Heißen Draht",
-	'thewire:notify:reply' => '%s autwortete auf %s im Heißen Draht:',
+	'thewire:notify:reply' => '%s antwortete auf %s im Heißen Draht:',
 	'thewire:notify:post' => '%s schrieb im Heißen Draht:',
 
 );
